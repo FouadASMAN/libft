@@ -6,13 +6,13 @@
 /*   By: foasman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/13 15:18:08 by foasman           #+#    #+#             */
-/*   Updated: 2026/10/15 16:41:55 by foasman          ###   ########.fr       */
+/*   Updated: 2026/10/19 12:15:56 by foasman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	bzero(void *s, size_t n)
+void	ft_bzero(void *s, size_t n)
 {
 	unsigned char	*ptr;
 
