@@ -6,7 +6,7 @@
 /*   By: foasman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/14 21:04:23 by foasman           #+#    #+#             */
-/*   Updated: 2026/10/15 16:48:36 by foasman          ###   ########.fr       */
+/*   Updated: 2026/10/20 11:26:07 by foasman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ char	*ft_strrchr(const char *s, int c)
 	while (i >= 0)
 	{
 		if (s[i] == (char)c)
-			return (s + i);
+			return ((char *)(s + i));
 		i--;
 	}
 	return (NULL);

@@ -6,7 +6,7 @@
 /*   By: foasman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/19 11:07:09 by foasman           #+#    #+#             */
-/*   Updated: 2026/10/19 12:07:42 by foasman          ###   ########.fr       */
+/*   Updated: 2026/10/20 11:21:15 by foasman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,5 +34,5 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 		ft_lstadd_back(&new_list, new_node);
 		lst = lst->next;
 	}
-	return (new_lst);
+	return (new_list);
 }

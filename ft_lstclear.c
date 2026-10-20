@@ -6,9 +6,11 @@
 /*   By: foasman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/19 10:55:40 by foasman           #+#    #+#             */
-/*   Updated: 2026/10/19 11:03:03 by foasman          ###   ########.fr       */
+/*   Updated: 2026/10/20 11:20:34 by foasman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 void	ft_lstclear(t_list **lst, void (*del)(void *))
 {

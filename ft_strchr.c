@@ -6,7 +6,7 @@
 /*   By: foasman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/14 20:58:58 by foasman           #+#    #+#             */
-/*   Updated: 2026/10/15 16:46:22 by foasman          ###   ########.fr       */
+/*   Updated: 2026/10/20 11:25:25 by foasman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,5 +20,5 @@ char	*ft_strchr(const char *s, int c)
 			return (NULL);
 		s++;
 	}
-	return (s);
+	return ((char *)s);
 }
