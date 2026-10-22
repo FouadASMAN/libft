@@ -7,13 +7,13 @@ This document tracks your progress through the **libft** project. Check off `[ ]
 ## 📌 Part 1: Libc Functions
 
 ### 1. Character Classification & Conversion
-- [ ] `int ft_isalpha(int c);` — Checks for an alphabetic character.
-- [ ] `int ft_isdigit(int c);` — Checks for a digit (0 through 9).
-- [ ] `int ft_isalnum(int c);` — Checks for an alphanumeric character (`ft_isalpha` || `ft_isdigit`).
-- [ ] `int ft_isascii(int c);` — Checks whether `c` fits into the ASCII character set (0 to 127).
-- [ ] `int ft_isprint(int c);` — Checks for any printable character including space (32 to 126).
-- [ ] `int ft_toupper(int c);` — Converts a lowercase letter to uppercase.
-- [ ] `int ft_tolower(int c);` — Converts an uppercase letter to lowercase.
+- [x] `int ft_isalpha(int c);` — Checks for an alphabetic character.
+- [x] `int ft_isdigit(int c);` — Checks for a digit (0 through 9).
+- [x] `int ft_isalnum(int c);` — Checks for an alphanumeric character (`ft_isalpha` || `ft_isdigit`).
+- [x] `int ft_isascii(int c);` — Checks whether `c` fits into the ASCII character set (0 to 127).
+- [x] `int ft_isprint(int c);` — Checks for any printable character including space (32 to 126).
+- [x] `int ft_toupper(int c);` — Converts a lowercase letter to uppercase.
+- [x] `int ft_tolower(int c);` — Converts an uppercase letter to lowercase.
 
 ### 2. Memory Manipulation
 - [ ] `void *ft_memset(void *s, int c, size_t n);` — Fills the first `n` bytes of memory with constant byte `c`.
