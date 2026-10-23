@@ -24,14 +24,14 @@ This document tracks your progress through the **libft** project. Check off `[ ]
 - [ ] `int ft_memcmp(const void *s1, const void *s2, size_t n);` — Compares byte sequences `s1` and `s2` up to `n` bytes.
 
 ### 3. String Traversal & Inspection
-- [ ] `size_t ft_strlen(const char *s);` — Calculates the length of a string (excluding null-terminator).
-- [ ] `size_t ft_strlcpy(char *dst, const char *src, size_t size);` — Size-bounded string copy with null-termination guarantee.
-- [ ] `size_t ft_strlcat(char *dst, const char *src, size_t size);` — Size-bounded string concatenation.
-- [ ] `char *ft_strchr(const char *s, int c);` — Locates the first occurrence of character `c` in string `s`.
-- [ ] `char *ft_strrchr(const char *s, int c);` — Locates the last occurrence of character `c` in string `s`.
-- [ ] `int ft_strncmp(const char *s1, const char *s2, size_t n);` — Compares at most `n` characters of two strings.
-- [ ] `char *ft_strnstr(const char *big, const char *little, size_t len);` — Locates a substring in a string, where search is limited to `len` bytes.
-- [ ] `int ft_atoi(const char *nptr);` — Converts a string representation of an integer into an actual `int`.
+- [x] `size_t ft_strlen(const char *s);` — Calculates the length of a string (excluding null-terminator).
+- [x] `size_t ft_strlcpy(char *dst, const char *src, size_t size);` — Size-bounded string copy with null-termination guarantee.
+- [x] `size_t ft_strlcat(char *dst, const char *src, size_t size);` — Size-bounded string concatenation.
+- [x] `char *ft_strchr(const char *s, int c);` — Locates the first occurrence of character `c` in string `s`.
+- [x] `char *ft_strrchr(const char *s, int c);` — Locates the last occurrence of character `c` in string `s`.
+- [x] `int ft_strncmp(const char *s1, const char *s2, size_t n);` — Compares at most `n` characters of two strings.
+- [x] `char *ft_strnstr(const char *big, const char *little, size_t len);` — Locates a substring in a string, where search is limited to `len` bytes.
+- [x] `int ft_atoi(const char *nptr);` — Converts a string representation of an integer into an actual `int`.
 
 ### 4. Dynamic Memory Allocations
 - [ ] `void *ft_calloc(size_t nmemb, size_t size);` — Allocates memory for an array and initializes all bytes to zero.
