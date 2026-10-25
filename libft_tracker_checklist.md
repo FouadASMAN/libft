@@ -16,12 +16,12 @@ This document tracks your progress through the **libft** project. Check off `[ ]
 - [x] `int ft_tolower(int c);` — Converts an uppercase letter to lowercase.
 
 ### 2. Memory Manipulation
-- [ ] `void *ft_memset(void *s, int c, size_t n);` — Fills the first `n` bytes of memory with constant byte `c`.
-- [ ] `void ft_bzero(void *s, size_t n);` — Erases data in `n` bytes of memory by writing zeros (`\0`).
-- [ ] `void *ft_memcpy(void *dest, const void *src, size_t n);` — Copies `n` bytes from `src` to `dest` (non-overlapping).
-- [ ] `void *ft_memmove(void *dest, const void *src, size_t n);` — Safely copies `n` bytes handling overlapping memory regions.
-- [ ] `void *ft_memchr(const void *s, int c, size_t n);` — Scans memory block `s` for the first occurrence of byte `c`.
-- [ ] `int ft_memcmp(const void *s1, const void *s2, size_t n);` — Compares byte sequences `s1` and `s2` up to `n` bytes.
+- [x] `void *ft_memset(void *s, int c, size_t n);` — Fills the first `n` bytes of memory with constant byte `c`.
+- [x] `void ft_bzero(void *s, size_t n);` — Erases data in `n` bytes of memory by writing zeros (`\0`).
+- [x] `void *ft_memcpy(void *dest, const void *src, size_t n);` — Copies `n` bytes from `src` to `dest` (non-overlapping).
+- [x] `void *ft_memmove(void *dest, const void *src, size_t n);` — Safely copies `n` bytes handling overlapping memory regions.
+- [x] `void *ft_memchr(const void *s, int c, size_t n);` — Scans memory block `s` for the first occurrence of byte `c`.
+- [x] `int ft_memcmp(const void *s1, const void *s2, size_t n);` — Compares byte sequences `s1` and `s2` up to `n` bytes.
 
 ### 3. String Traversal & Inspection
 - [x] `size_t ft_strlen(const char *s);` — Calculates the length of a string (excluding null-terminator).
