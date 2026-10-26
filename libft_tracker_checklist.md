@@ -34,8 +34,8 @@ This document tracks your progress through the **libft** project. Check off `[ ]
 - [x] `int ft_atoi(const char *nptr);` — Converts a string representation of an integer into an actual `int`.
 
 ### 4. Dynamic Memory Allocations
-- [ ] `void *ft_calloc(size_t nmemb, size_t size);` — Allocates memory for an array and initializes all bytes to zero.
-- [ ] `char *ft_strdup(const char *s);` — Duplicates a string by allocating dynamic memory with `malloc`.
+- [x] `void *ft_calloc(size_t nmemb, size_t size);` — Allocates memory for an array and initializes all bytes to zero.
+- [x] `char *ft_strdup(const char *s);` — Duplicates a string by allocating dynamic memory with `malloc`.
 
 ---
 
