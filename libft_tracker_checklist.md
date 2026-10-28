@@ -51,10 +51,10 @@ This document tracks your progress through the **libft** project. Check off `[ ]
 - [x] `void ft_striteri(char *s, void (*f)(unsigned int, char*));` — Applies function `f` in-place to each character of `s`.
 
 ### 2. File Descriptor Writers
-- [ ] `void ft_putchar_fd(char c, int fd);` — Outputs character `c` to the given file descriptor.
-- [ ] `void ft_putstr_fd(char *s, int fd);` — Outputs string `s` to the given file descriptor.
-- [ ] `void ft_putendl_fd(char *s, int fd);` — Outputs string `s` followed by a newline `\n` to the given file descriptor.
-- [ ] `void ft_putnbr_fd(int n, int fd);` — Outputs integer `n` to the given file descriptor.
+- [x] `void ft_putchar_fd(char c, int fd);` — Outputs character `c` to the given file descriptor.
+- [x] `void ft_putstr_fd(char *s, int fd);` — Outputs string `s` to the given file descriptor.
+- [x] `void ft_putendl_fd(char *s, int fd);` — Outputs string `s` followed by a newline `\n` to the given file descriptor.
+- [x] `void ft_putnbr_fd(int n, int fd);` — Outputs integer `n` to the given file descriptor.
 
 ---
 
