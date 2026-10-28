@@ -14,7 +14,7 @@
 
 static void	ft_putnbr_magic(long nb, int fd)
 {
-	char	wallet[10];
+	char	wallet[12];
 	int		i;
 
 	i = 0;
