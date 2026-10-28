@@ -42,13 +42,13 @@ This document tracks your progress through the **libft** project. Check off `[ ]
 ## 📌 Part 2: Additional Functions
 
 ### 1. String Manipulation & Creation
-- [ ] `char *ft_substr(char const *s, unsigned int start, size_t len);` — Extracts a substring from string `s`.
-- [ ] `char *ft_strjoin(char const *s1, char const *s2);` — Concatenates two strings into a new heap-allocated string.
-- [ ] `char *ft_strtrim(char const *s1, char const *set);` — Trims specified characters in `set` from beginning and end of `s1`.
-- [ ] `char **ft_split(char const *s, char c);` — Splits string `s` into an array of strings using delimiter character `c`.
-- [ ] `char *ft_itoa(int n);` — Converts an integer `n` into a null-terminated string representation.
-- [ ] `char *ft_strmapi(char const *s, char (*f)(unsigned int, char));` — Applies function `f` to each character of `s` to create a new string.
-- [ ] `void ft_striteri(char *s, void (*f)(unsigned int, char*));` — Applies function `f` in-place to each character of `s`.
+- [x] `char *ft_substr(char const *s, unsigned int start, size_t len);` — Extracts a substring from string `s`.
+- [x] `char *ft_strjoin(char const *s1, char const *s2);` — Concatenates two strings into a new heap-allocated string.
+- [x] `char *ft_strtrim(char const *s1, char const *set);` — Trims specified characters in `set` from beginning and end of `s1`.
+- [x] `char **ft_split(char const *s, char c);` — Splits string `s` into an array of strings using delimiter character `c`.
+- [x] `char *ft_itoa(int n);` — Converts an integer `n` into a null-terminated string representation.
+- [x] `char *ft_strmapi(char const *s, char (*f)(unsigned int, char));` — Applies function `f` to each character of `s` to create a new string.
+- [x] `void ft_striteri(char *s, void (*f)(unsigned int, char*));` — Applies function `f` in-place to each character of `s`.
 
 ### 2. File Descriptor Writers
 - [ ] `void ft_putchar_fd(char c, int fd);` — Outputs character `c` to the given file descriptor.
