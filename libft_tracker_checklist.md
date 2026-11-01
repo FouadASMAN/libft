@@ -83,6 +83,6 @@ typedef struct s_list
 ---
 
 ## 📌 Build System & Metadata Requirements
-- [ ] **Header file (`libft.h`):** Inclusion guards (`#ifndef LIBFT_H`), structs, includes, and prototypes.
-- [ ] **Makefile:** Rules for `$(NAME)` (`libft.a`), `all`, `clean`, `fclean`, `re`, and `bonus`. No unnecessary relinking.
-- [ ] **README.md:** Standard mandatory disclaimer format included on the first line.
+- [x] **Header file (`libft.h`):** Inclusion guards (`#ifndef LIBFT_H`), structs, includes, and prototypes.
+- [x] **Makefile:** Rules for `$(NAME)` (`libft.a`), `all`, `clean`, `fclean`, `re`, and `bonus`. No unnecessary relinking.
+- [x] **README.md:** Standard mandatory disclaimer format included on the first line.
