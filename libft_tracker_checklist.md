@@ -70,15 +70,15 @@ typedef struct s_list
 ```
 
 ### Node Operations
-- [ ] `t_list *ft_lstnew(void *content);` — Allocates and initializes a new list node.
-- [ ] `void ft_lstadd_front(t_list **lst, t_list *new);` — Adds node `new` at the beginning of the list.
-- [ ] `int ft_lstsize(t_list *lst);` — Counts the number of nodes in a list.
-- [ ] `t_list *ft_lstlast(t_list *lst);` — Returns the last node of the list.
-- [ ] `void ft_lstadd_back(t_list **lst, t_list *new);` — Adds node `new` at the end of the list.
-- [ ] `void ft_lstdelone(t_list *lst, void (*del)(void *));` — Frees memory of a node's content using `del`, then frees the node.
-- [ ] `void ft_lstclear(t_list **lst, void (*del)(void *));` — Deletes and frees given node and all its successors.
-- [ ] `void ft_lstiter(t_list *lst, void (*f)(void *));` — Iterates through the list and applies `f` to the content of each node.
-- [ ] `t_list *ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));` — Iterates list, applies `f` to content, creates a new list.
+- [x] `t_list *ft_lstnew(void *content);` — Allocates and initializes a new list node.
+- [x] `void ft_lstadd_front(t_list **lst, t_list *new);` — Adds node `new` at the beginning of the list.
+- [x] `int ft_lstsize(t_list *lst);` — Counts the number of nodes in a list.
+- [x] `t_list *ft_lstlast(t_list *lst);` — Returns the last node of the list.
+- [x] `void ft_lstadd_back(t_list **lst, t_list *new);` — Adds node `new` at the end of the list.
+- [x] `void ft_lstdelone(t_list *lst, void (*del)(void *));` — Frees memory of a node's content using `del`, then frees the node.
+- [x] `void ft_lstclear(t_list **lst, void (*del)(void *));` — Deletes and frees given node and all its successors.
+- [x] `void ft_lstiter(t_list *lst, void (*f)(void *));` — Iterates through the list and applies `f` to the content of each node.
+- [x] `t_list *ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));` — Iterates list, applies `f` to content, creates a new list.
 
 ---
 
